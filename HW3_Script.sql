@@ -80,10 +80,10 @@ select c.customer_id, c.first_name, c.last_name, sum(t.list_price) as transactio
 	order by transaction_min
 	limit 1
 	
-select c.customer_id, c.first_name, c.last_name, sum(t.list_price) as transaction_min
+select c.customer_id, c.first_name, c.last_name, sum(t.list_price) as transaction_max
 	from transactions t left join customers c on t.customer_id = c.customer_id
 	group by c.customer_id, c.first_name, c.last_name
-	order by transaction_min desc 
+	order by transaction_max desc 
 	limit 1
 	
 /*Вывести только самые первые транзакции клиентов. Решить с помощью оконных функций.*/
