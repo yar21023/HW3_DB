@@ -16,7 +16,7 @@ HW3 of DB course
 
 # Решение
 
-Скрипт решения [Script-3.sql](https://github.com/yar21023/HW3_DB/blob/main/Script-3.sql)  
+Скрипт решения [HW3_Script.sql](https://github.com/yar21023/HW3_DB/blob/main/HW3_Script.sql)  
 * Вывести распределение (количество) клиентов по сферам деятельности, отсортировав результат по убыванию количества.  
 ![HW3_t1.JPG](https://github.com/yar21023/HW3_DB/blob/main/HW3_t1.JPG)  
 * Найти сумму транзакций за каждый месяц по сферам деятельности, отсортировав по месяцам и по сфере деятельности.   
@@ -33,4 +33,4 @@ HW3 of DB course
 * Вывести только самые первые транзакции клиентов. Решить с помощью оконных функций.  
 ![HW3_t6.JPG](https://github.com/yar21023/HW3_DB/blob/main/HW3_t6.JPG)  
 * Вывести имена, фамилии и профессии клиентов, между транзакциями которых был максимальный интервал (интервал вычисляется в днях) 
-![HW3_t7.JPG](https://github.com/yar21023/HW3_DB/blob/main/HW3_t7f.JPG)
+![HW3_t7.JPG](https://github.com/yar21023/HW3_DB/blob/main/HW3_t7.JPG)
